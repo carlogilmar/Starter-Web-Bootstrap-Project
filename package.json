@@ -1,0 +1,28 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "Angular1": "^0.1.16",
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "crypto": "^0.0.3",
+    "crypto-js": "^3.1.9-1",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
